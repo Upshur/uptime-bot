@@ -1,0 +1,30 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "Uptime bot",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarkWarrior9999/uptime-bot.git"
+  },
+  "keywords": [
+    "uptime"
+  ],
+  "author": "DarkWarrior",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DarkWarrior9999/uptime-bot/issues"
+  },
+  "homepage": "https://github.com/DarkWarrior9999/uptime-bot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "fs": "0.0.1-security",
+    "moment": "^2.29.1",
+    "moment-duration-format": "^2.3.2",
+    "mongoose": "^5.11.14",
+    "node-fetch": "^2.6.1"
+  }
+}
